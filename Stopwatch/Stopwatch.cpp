@@ -39,9 +39,10 @@ if (_kbhit())
 			minutes = 0;
 			hours = 0;
 		}
-else if (tombol == 'b' || tombol == 'b')
+else if (tombol == 'b' || tombol == 'B')
 {
 break;
+}
 }
 
 		if (run)
@@ -68,7 +69,7 @@ break;
 
 		}
 
-system.("cls");
+system("cls");
 cout << "tekan s untuk start \n";
 cout << "tekan p untuk pause \n";
 cout << "tekan t untuk restart \n";
