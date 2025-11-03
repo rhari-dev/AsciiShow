@@ -48,16 +48,20 @@ break;
 		if (run)
 		{
 			Sleep(1000);
+   system("cls");
 			seconds++;
 			// if seconds reach 60, increment minutes and reset seconds
 			if (seconds >= 60)
 			{
+    system("cls");
 				seconds = 0;
 				minutes++;
 			}
+   
 			// if minutes reach 60, increment hours and reset minutes
 			if (minutes >= 60)
 			{
+    system("cls");
 				minutes = 0;
 				hours++;
 			}
@@ -69,7 +73,7 @@ break;
 
 		}
 
-system("cls");
+
 cout << "tekan s untuk start \n";
 cout << "tekan p untuk pause \n";
 cout << "tekan t untuk restart \n";
